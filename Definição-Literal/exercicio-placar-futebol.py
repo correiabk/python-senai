@@ -26,5 +26,6 @@ print("============================")
 print("     RESULTADO DO JOGO      ")
 print("============================")
 print(f"{time1} {result1} x {result2} {time2}")
-print(f"Total de gols: {partida}")
+print(f"Total de gols: {partida}\n")
 
+print("============================\n")
