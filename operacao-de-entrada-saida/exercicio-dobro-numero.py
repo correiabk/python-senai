@@ -5,7 +5,7 @@
 n1 = int(input("Digite um número: "))
 
 # Processamento computacional
-soma = n1 * 2
+divisao = n1 * 2
 
 # Saída das informações
-print(f"O dobro do seu numero é: {soma}")
+print(f"O dobro do seu numero é: {divisao}")
