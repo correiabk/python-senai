@@ -41,7 +41,7 @@ while filme != "sair":
 
     if idade >= classificacao:
         print("Você pode assistir!")
-
+    
     else:
         print("Você não pode assistir!")
 
