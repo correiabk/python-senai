@@ -13,7 +13,7 @@
 
 times = ["Corinthians", "Palmeiras", "Santos", "São Paulo"]
 
-team = input("Insira o nome do sue time em São Paulo: ")
+team = input("Insira o nome do sue time em: ")
 
 if team in times:
     print(f"{team} está na lista!")
