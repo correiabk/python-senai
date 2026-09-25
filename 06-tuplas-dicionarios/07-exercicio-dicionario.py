@@ -18,10 +18,10 @@ alunos = {
     "Pedro": 18
 }
 
-if alunos <= 18:
-        print("Maior de Idade")
-        print(alunos["nome"]) #Carlos
-        print(alunos["idade"]) #Idade
-        print(alunos["curso"]) #Python
-else:
-        print("Menor de Idade")
+for aluno, idade in alunos.items():
+        if idade >= 18:
+                print(aluno, "maior de idade")
+
+        else:
+                print(aluno, "menor de idade")
+                
